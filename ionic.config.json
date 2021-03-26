@@ -1,0 +1,7 @@
+{
+  "name": "LegullyNewsGenieEditors",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
