@@ -25,3 +25,32 @@
 #container a {
   text-decoration: none;
 }
+.custom-shape-divider-top-1617521432 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1617521432 svg {
+  position: relative;
+  display: block;
+  width: calc(272% + 1.3px);
+  height: 291px;
+}
+
+.custom-shape-divider-top-1617521432 .shape-fill {
+  fill: #008891;
+}
+
+
+ion-content.custom-grad{
+  --background: #e7e7de !important;
+--background: linear-gradient(0deg, #008891  0%, #e7e7de 100%) !important;
+}
+
+
+
+

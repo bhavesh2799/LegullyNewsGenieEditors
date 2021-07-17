@@ -1,21 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
-import { HomePage } from './home.page';
 
-import { HomePageRoutingModule } from './home-routing.module';
+import { IonicModule } from '@ionic/angular';
 import { IonicSelectableModule } from 'ionic-selectable';
 
+import { BufferPageRoutingModule } from './buffer-routing.module';
+
+import { BufferPage } from './buffer.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
+    IonicSelectableModule,
     IonicModule,
-    HomePageRoutingModule,
-    IonicSelectableModule
+    BufferPageRoutingModule
   ],
-  declarations: [HomePage]
+  declarations: [BufferPage]
 })
-export class HomePageModule {}
+export class BufferPageModule {}
